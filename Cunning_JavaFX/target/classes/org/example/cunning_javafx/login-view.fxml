@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.cunning_javafx.HelloController" style="-fx-background-color: #000000; -fx-padding: 30;">
+    <ImageView fitHeight="100.0" fitWidth="100.0" preserveRatio="true">
+        <Image url="@imagenes/logo_cunning.png" />
+    </ImageView>
+    <Label text="Cunning" style="-fx-text-fill: white; -fx-font-size: 32; -fx-font-weight: bold;" />
+    <VBox spacing="10.0" maxWidth="350">
+        <TextField fx:id="txtUsuario" promptText="Email" />
+        <PasswordField promptText="Contraseña" />
+    </VBox>
+    <Button fx:id="btnAcceder" text="Iniciar Sesión" onAction="#onAccederClick" prefWidth="350" style="-fx-background-color: #007bff; -fx-text-fill: white;" />
+    <Label fx:id="lblInfo" style="-fx-text-fill: gray;" />
+    <HBox alignment="CENTER" spacing="10">
+        <Button text="🛡️ Seguro" style="-fx-background-color: #1a1a1a; -fx-text-fill: white;" />
+        <Button text="👥 Comunidad" style="-fx-background-color: #1a1a1a; -fx-text-fill: white;" />
+        <Button text="📈 En vivo" style="-fx-background-color: #1a1a1a; -fx-text-fill: white;" />
+    </HBox>
+</VBox>

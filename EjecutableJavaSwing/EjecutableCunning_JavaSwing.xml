@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\agubc\OneDrive\Escritorio\EjecutableJavaSwing\Cunning.jar</jar>
+  <outfile>C:\Users\agubc\OneDrive\Escritorio\EjecutableJavaSwing\EjecutableCunning_JavaSwing.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon></icon>
+  <jre>
+    <path>C:\Users\agubc\.jdks\openjdk-25</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>20</minVersion>
+    <maxVersion>25</maxVersion>
+  </jre>
+</launch4jConfig>

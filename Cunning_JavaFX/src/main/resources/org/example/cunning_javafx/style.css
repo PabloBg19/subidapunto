@@ -1,0 +1,82 @@
+/* Configuración general del fondo */
+.root {
+    -fx-background-color: #000000;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+/* Estilos para los campos de texto (Email y Contraseña) */
+.text-field, .password-field {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+    -fx-highlight-fill: #007bff;
+    -fx-prompt-text-fill: #888888;
+    -fx-background-radius: 5;
+    -fx-border-color: #333333;
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #007bff;
+    -fx-background-color: #252525;
+}
+
+/* Estilo para el botón de Iniciar Sesión */
+.button {
+    -fx-cursor: hand;
+    -fx-transition-duration: 0.2s;
+}
+
+#btnAcceder {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+#btnAcceder:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* Estilos para los botones de iconos inferiores (Seguro, Comunidad, En vivo) */
+.icon-button {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+    -fx-background-radius: 10;
+    -fx-min-width: 60;
+    -fx-min-height: 60;
+    -fx-border-color: #333333;
+    -fx-border-radius: 10;
+}
+
+.icon-button:hover {
+    -fx-background-color: #252525;
+    -fx-border-color: #007bff;
+}
+
+/* Estilos para el contenedor de comunidades en el Main */
+#comunidadesContainer {
+    -fx-background-color: #111111;
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+}
+
+/* Etiquetas de texto */
+.label {
+    -fx-text-fill: white;
+}
+
+.label-header {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+/* Estilo para el ScrollPane */
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
